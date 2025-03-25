@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>MIO: Art Gallery</title>
+</head>
+<body>
+    <div id="wrap">
+        <div class="black_p">
+        <div class="black">
+            <img src="./IMAGES/black.png" alt="">
+        </div>
+
+
+    </div>
+
+        <a href="#" class="btn_gotop">
+            <span class="glyphicon glyphicon-chevron-up">TOP
+            </span>
+          </a>
+    <div id="header">
+        <div class="inner_header">
+            <div class="pc">
+            <div class="icon">
+                <a href=""><img src="./IMAGES/icon.png" alt=""></a>
+            </div>
+            <ul class="nav">
+                <li><a href="">EXHIBITION</a></li>
+                <li><a href="">SPACE</a></li>
+                <li><a href="">WORKSHOP</a></li>
+                <li><a href="">MEMBERSHIP</a></li>
+                <li><a href=""><img src="./IMAGES/search 1.png" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div class="mobile_gnb">
+            <div class="flex">
+              <div class="logo"><a href="">
+                  <img src="./IMAGES/icon.png" alt="">
+                </a></div>
+              <div class="m_btn" onclick="toggleMenu()">
+                <img src="./IMAGES/line.png" alt="">
+              </div>
+              <div id="m_menu">
+                <ul class="m_gnb">
+                    <li><a href="">EXHIBITION</a></li>
+                    <li><a href="">SPACE</a></li>
+                    <li><a href="">WORKSHOP</a></li>
+                    <li><a href="">MEMBERSHIP</a></li>
+                </ul>
+                <p class="close_btn" onclick="toggleMenu()"><img src="./IMAGES/close_btn.png" alt=""></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    
+    <div id="banner"></div>
+
+
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="exhibition">
+  <div class="text">
+    <h1>EXHIBITION</h1>
+    <p>예술이 숨쉬는 공간, MIO의 대표 작가를 만나보세요.</p>
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="btn2">
+      <div class="circle3">
+        <img src="./IMAGES/Ellipse 23.png" alt="" class="bouncing-img" />
+      </div>
+    </div>
+  </div>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./IMAGES/p1.png" />
+        <p>이상욱 작가 전시</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./IMAGES/p2.png" />
+        <p>이진영 작가 전시</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./IMAGES/p3.png" />
+        <p>박현진 작가 전시</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./IMAGES/p4.png" />
+        <p>한영웅 작가 전시</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./IMAGES/p5.png" />
+        <p>진선영 작가 전시</p>
+      </div>
+    </div>
+    <div class="pagination">
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+
+    <div id="container">
+        
+
+    <div class="space_m">
+        <h1 >SPACE</h1>
+        <div class="box">
+            <div class="img_wrap">
+                <img src="./IMAGES/mainhall.jpg" alt="">
+             </div>
+             <div class="text_wrap">
+                <h2>Main Hall</h2>
+                <p>미술관에 들어서는 순간, 넓고 개방감 있는 메인 홀이 
+                    <br>방문객을 맞이합니다.
+                    <br>자연광이 은은하게 스며드는 대형 유리창과 
+                    <br>미니멀한 인테리어가 조화를 이루며,
+                    <br>중앙에는 시즌별 대표 작품이 전시됩니다. </p>
+             </div>
+        </div>
+        <div class="box">
+            <div class="img_wrap">
+                <img src="./IMAGES/arthall.jpg" alt="">
+             </div>
+             <div class="text_wrap">
+                <h2>Art Hall</h2>
+                <p>아트홀에 들어서면 조용한 설렘 속에서
+                    <br>넓고 개방적인 공간이 펼쳐집니다. 
+                    <br>유려한 곡선의 구조와 절제된 조명이 조화를 이루며, 
+                    <br>중앙에 있는 계절마다 변화하는 대표 작품은 
+                    <br>방문객들에게 새로운 영감을 선사합니다.
+                </p>
+             </div>
+        </div>
+        </div>
+
+
+</div>
+
+<div class="workshop">
+
+    <div class="position">
+        <h1 data-aos="fade-up" data-aos-duration="1000"data-aos-delay="0">WORKSHOP</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">THIS YEAR’S INSIGHTS</p>
+        <div class="inner_workshop">
+            <div class="person1" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="600">
+                <div class="person_img">
+                    <img src="./IMAGES/person1.jpg" alt="">
+                </div>
+                <div class="text_wrap">
+                    <div class="bold"><p>ㅣ</p></div>
+                    <div class="flex">
+                        <p class="title"><span>점속의 선</span>
+                            <br><span>작가</span> 이지은
+                            <br><span>일시</span> 2025.03.02 SUN 15:00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="person2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                <div class="person_img">
+                    <img src="./IMAGES/person2.jpg" alt="">
+                </div>
+                <div class="text_wrap">
+                    <div class="bold"><p>ㅣ</p></div>
+                    <div class="flex">
+                        <p><span>채움의 미학</span>
+                            <br><span>작가</span> 김정현
+                            <br><span>일시</span> 2025.08.12 SUN 17:00
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="person1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+                <div class="person_img">
+                    <img src="./IMAGES/person3.jpg" alt="">
+                </div>
+                <div class="text_wrap">
+                    <div class="bold"><p>ㅣ</p></div>
+                    <div class="flex">
+                        <p><span>형과 색의 조화</span>
+                            <br><span>작가</span> 박보검
+                            <br><span>일시</span> 2025.11.12 FRI 19:00
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000"data-aos-delay="900"  class="btn2">
+            <div class="circle2"><a href="">
+                <img src="./IMAGES/yellow_s.png" alt="" class="bouncing-img"></a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div id="container2">
+<div class="space">
+    <h1 data-aos="fade-up" data-aos-duration="1000"data-aos-delay="0">SPACE</h1>
+
+    <div class="box">
+    
+        <div data-aos="fade-right" data-aos-duration="1000"data-aos-delay="0" class="text_wrap">
+            <P><span>Main Hall</span></P>
+            <p>미술관에 들어서는 순간, 넓고 개방감 있는 메인 홀이 
+                <br>방문객을 맞이합니다.
+                <br>자연광이 은은하게 스며드는 대형 유리창과 
+                <br>미니멀한 인테리어가 조화를 이루며,
+                <br>중앙에는 시즌별 대표 작품이 전시됩니다. 
+            </p>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000"data-aos-delay="300" id="slide">
+            <ul>
+                <li><img src="./IMAGES/mainhall.jpg" alt="1"></li>
+                <li><img src="./IMAGES/mainhall2.jpg" alt="2"></li>
+                <li><img src="./IMAGES/mainhall.jpg" alt="3"></li>
+              
+            </ul>
+        </div>
+    </div>
+
+    <div class="box art">
+     
+        <div data-aos="fade-right" data-aos-duration="2000"data-aos-delay="600" id="slide2">
+            <ul>
+                <li><img src="./IMAGES/arthall.jpg" alt="1"></li>
+                <li><img src="./IMAGES/arthall1.jpg" alt="2"></li>
+                <li><img src="./IMAGES/arthall2.jpg" alt="3"></li>
+              
+            </ul>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000"data-aos-delay="900" class="text_wrap">
+            <P> <SPAN>Art Hall</SPAN></P>
+            <p>아트홀에 들어서면 조용한 설렘 속에서
+                <br>넓고 개방적인 공간이 펼쳐집니다. 
+                <br>유려한 곡선의 구조와 절제된 조명이 조화를 이루며, 
+                <br>중앙에 있는 계절마다 변화하는 대표 작품은 
+                <br>방문객들에게 새로운 영감을 선사합니다.
+            </p>
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+
+    <div class="workshop_m">
+        <div class="position">
+        <h1>WORKSHOP</h1>
+        
+<div class="inner_workshop_m">
+        <div class="person">
+            <div class="person_img">
+                <img src="./IMAGES/person1.jpg" alt="">
+            </div>
+            <div class="text_wrap">
+                <p class="title"><span>점속의 선</span>
+
+
+                    <br><span>작가</span>  이지은
+                    
+                    <br><span>일시</span>  2025.03.02 SUN 15:00</p>
+            </div>
+        </div>
+        <div class="person">
+            <div class="person_img">
+                <img src="./IMAGES/person2.jpg" alt="">
+            </div>
+            <div class="text_wrap">
+                <p><span>채움의 미학</span>
+
+
+                    <br><span>작가</span> 김정현
+                    
+                    <br><span>일시</span>  2025.08.12 SUN 17:00</p>
+            </div>
+        </div>
+        <div class="person">
+            <div class="person_img">
+                <img src="./IMAGES/person3.jpg" alt="">
+            </div>
+            <div class="text_wrap">
+                <p><span>형과 색의 조화</span>
+
+
+                    <br><span>작가</span> 박보검
+                    
+                    <br><span>일시</span>  2025.11.12 FRI 19:00</p>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="2000"data-aos-delay="0"class="banner_bottom">
+        <div class="banner1">
+            <div><img src="./IMAGES/smallbanner_logo.png" alt=""></div>
+            <h1>멤버십 가입 혜택</h1>
+            <p>멤버십 가입하고 VIP 전시 초대, 특별한 아트 클래스 등의 혜택을 즐겨보세요.</p>
+            <div class="more_btn"><a href="">MORE</a></div>
+        </div>
+        <div class="banner2">
+            <div class="location">
+                <span><a href="">LOCATION</a></span>
+            </div>
+            <div class="customer">
+                <span><a href="">CUSTOMER</a></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="inner_footer">
+            <a href=""><img src="./IMAGES/footer_logo.png" alt=""></a>
+            <div class="footer_text">
+            <p>개인정보 처리방침</p>
+            <p>이메일 무단수집 거부</p>
+            <p>윤리경영</p>
+        </div>
+            <p>COPYRIGHT ⓒ Mio Company. ALL RIGHT RESERVED.</p>
+        </div>
+    </div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <!-- Swiper  -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 3, 
+            spaceBetween: 30, 
+            coverflowEffect: {
+                rotate: 10,
+                stretch: 0,
+                depth: 0,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true, 
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                1024: { slidesPerView: 3 }, 
+                768: { slidesPerView: 2 },
+                700: { slidesPerView: 1 },  
+            },
+        });
+    </script>
+
+   
+   
+</body>
+</html>
